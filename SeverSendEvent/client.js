@@ -1,4 +1,4 @@
-var es = new EventSource("http://localhost:8085/data");
+var es = new EventSource("http://" + host + ":8020/data");
 var p = document.getElementsByTagName('p')[0];
 
 es.onmessage = function (event) {

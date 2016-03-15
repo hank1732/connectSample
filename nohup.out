@@ -1,0 +1,332 @@
+module.js:339
+    throw err;
+    ^
+
+Error: Cannot find module '/Users/hank/Documents/DNA2016/connectSample/ServerSendEvent/app'
+    at Function.Module._resolveFilename (module.js:337:15)
+    at Function.Module._load (module.js:287:25)
+    at Function.Module.runMain (module.js:467:10)
+    at startup (node.js:136:18)
+    at node.js:963:3
+Example app listening at http://:::8010
+Listening on 8030
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+received: 31
+received: 32
+Request comes!
+received: 33
+Request comes!
+received: 34
+Request comes!
+received: 40
+received: 40
+Request comes!
+received: 42
+received: 43
+Request comes!
+received: 44
+received: 45
+Request comes!
+received: 47
+received: 49
+received: 49
+Request comes!
+received: 51
+received: 52
+received: 53
+Request comes!
+received: 54
+received: 54
+Request comes!
+received: 56
+received: 57
+received: 57
+Request comes!
+received: 59
+received: 1
+Request comes!
+received: 2
+received: 2
+received: 4
+Request comes!
+received: 6
+received: 7
+Request comes!
+received: 9
+Request comes!
+received: 11
+received: 13
+Request comes!
+received: 15
+Request comes!
+Request comes!
+received: 21
+Request comes!
+received: 23
+received: 25
+Request comes!
+received: 27
+Request comes!
+received: 29
+received: 31
+Request comes!
+received: 33
+received: 34
+Request comes!
+received: 36
+received: 37
+Request comes!
+received: 39
+Request comes!
+received: 41
+received: 42
+Example app listening at http://:::8020
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+module.js:339
+    throw err;
+    ^
+
+Error: Cannot find module '/Users/hank/Documents/DNA2016/connectSample/ServerSendEvent/app'
+    at Function.Module._resolveFilename (module.js:337:15)
+    at Function.Module._load (module.js:287:25)
+    at Function.Module.runMain (module.js:467:10)
+    at startup (node.js:136:18)
+    at node.js:963:3
+Example app listening at http://:::8010
+Listening on 8030
+Example app listening at http://:::8020
+Example app listening at http://:::8010
+Listening on 8030
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+/usr/bin/python: No module named SimpleHTTEServer
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8020
+    at Object.exports._errnoException (util.js:874:11)
+    at exports._exceptionWithHostPort (util.js:897:20)
+    at Server._listen2 (net.js:1234:14)
+    at listen (net.js:1270:10)
+    at Server.listen (net.js:1366:5)
+    at EventEmitter.listen (/Users/hank/Documents/DNA2016/connectSample/SeverSendEvent/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/Users/hank/Documents/DNA2016/connectSample/SeverSendEvent/app.js:27:18)
+    at Module._compile (module.js:435:26)
+    at Object.Module._extensions..js (module.js:442:10)
+    at Module.load (module.js:356:32)
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8010
+    at Object.exports._errnoException (util.js:874:11)
+    at exports._exceptionWithHostPort (util.js:897:20)
+    at Server._listen2 (net.js:1234:14)
+    at listen (net.js:1270:10)
+    at Server.listen (net.js:1366:5)
+    at EventEmitter.listen (/Users/hank/Documents/DNA2016/connectSample/longPolling/node_modules/express/lib/application.js:617:24)
+    at Object.<anonymous> (/Users/hank/Documents/DNA2016/connectSample/longPolling/app.js:18:18)
+    at Module._compile (module.js:435:26)
+    at Object.Module._extensions..js (module.js:442:10)
+    at Module.load (module.js:356:32)
+events.js:141
+      throw er; // Unhandled 'error' event
+      ^
+
+Error: listen EADDRINUSE :::8030
+    at Object.exports._errnoException (util.js:874:11)
+    at exports._exceptionWithHostPort (util.js:897:20)
+    at Server._listen2 (net.js:1234:14)
+    at listen (net.js:1270:10)
+    at Server.listen (net.js:1366:5)
+    at Object.<anonymous> (/Users/hank/Documents/DNA2016/connectSample/websocket/app.js:19:8)
+    at Module._compile (module.js:435:26)
+    at Object.Module._extensions..js (module.js:442:10)
+    at Module.load (module.js:356:32)
+    at Function.Module._load (module.js:311:12)
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Example app listening at http://:::8010
+Example app listening at http://:::8020
+Listening on 8030
+Request comes!
+127.0.0.1 - - [15/Mar/2016 11:26:56] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2016 11:26:56] code 404, message File not found
+127.0.0.1 - - [15/Mar/2016 11:26:56] "GET /favicon.ico HTTP/1.1" 404 -
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+127.0.0.1 - - [15/Mar/2016 11:27:19] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2016 11:27:20] "GET /longPolling/client.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2016 11:27:20] "GET /longPolling/jquery.min.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2016 11:27:20] "GET /config.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2016 11:27:20] "GET /longPolling/client.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2016 11:27:20] code 404, message File not found
+127.0.0.1 - - [15/Mar/2016 11:27:20] "GET /longPolling/jquery.min.map HTTP/1.1" 404 -
+Request comes!
+Request comes!
+Request comes!
+127.0.0.1 - - [15/Mar/2016 11:27:23] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2016 11:27:24] "GET /SeverSendEvent/client.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2016 11:27:24] "GET /config.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2016 11:27:24] "GET /SeverSendEvent/client.js HTTP/1.1" 200 -
+Request comes!
+Request comes!
+Request comes!
+Request comes!
+127.0.0.1 - - [15/Mar/2016 11:27:28] "GET / HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2016 11:27:29] "GET /websocket/client.html HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2016 11:27:29] "GET /config.js HTTP/1.1" 200 -
+127.0.0.1 - - [15/Mar/2016 11:27:29] "GET /websocket/client.js HTTP/1.1" 200 -
+received: 30
+received: 31
+Request comes!
+received: 32
+received: 33
+received: 34
+received: 35
+Request comes!
+received: 36
+received: 37
+received: 38
+received: 39
+received: 40
+received: 41
+Request comes!
+received: 42
+received: 43
+received: 44
+received: 45
+received: 46
+Request comes!
+received: 47
+received: 48
+received: 49
+received: 50
+Request comes!
+received: 51
+received: 52
+received: 53
+received: 54
+received: 55
+Request comes!
+received: 56
+received: 57
+received: 58
+received: 59
+Request comes!
+received: 0
+received: 1
+received: 2

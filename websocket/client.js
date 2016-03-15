@@ -1,4 +1,4 @@
-var connection = new WebSocket('ws://localhost:8081');
+var connection = new WebSocket("ws://" + host + ":8030");
 var p = document.getElementsByTagName('p')[0];
 
 // When the connection is open, send some data to the server

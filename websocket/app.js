@@ -3,7 +3,7 @@ var server = require('http').createServer()
   , wss = new WebSocketServer({ server: server })
   , express = require('express')
   , app = express()
-  , port = 8081;
+  , port = 8030;
 
 wss.on('connection', function connection(ws) {
   
