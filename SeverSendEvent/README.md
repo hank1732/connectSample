@@ -8,7 +8,6 @@ Server side file app.js using nodejs with expressjs
 > * node app
 
 client file client.js with client.html using Sever Send Event
-
 --------
 ### Note:
 If use res.end() to send response by server
