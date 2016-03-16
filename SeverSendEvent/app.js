@@ -8,8 +8,8 @@ var count = 0,
 app.use(function(req, res, next) {
   res.writeHead(200, {
     'Content-Type': 'text/event-stream',
-    'Cache-Control': 'no-cache',
-    'Connection': 'keep-alive',
+    // 'Cache-Control': 'no-cache',
+    // 'Connection': 'keep-alive',
     "Access-Control-Allow-Origin": "*",
     "Access-Control-Allow-Headers": "Origin, X-Requested-With, Content-Type, Accept"
   });
@@ -27,6 +27,9 @@ app.all('/data', function(req, res) {
           res.write('event: ' + 'ping' + '\n');
       }
     },1000);
+    
+    // don not use res.end()
+    // Or conoection will be terminated and client will try to reconnect
     
     // res.end();
 });
